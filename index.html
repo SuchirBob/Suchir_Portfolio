@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Suchir Bobbili — Cybersecurity &amp; Software Engineer</title>
+<meta name="description" content="Portfolio of Suchir Bobbili — Computer Science undergraduate specializing in cybersecurity, networking, and ethical hacking.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<link rel="icon" href="data:,">
+</head>
+<body>
+
+<!-- Noise / scanline overlay -->
+<div class="scanlines" aria-hidden="true"></div>
+
+<!-- ============ NAV ============ -->
+<header class="nav" id="nav">
+  <div class="nav-inner">
+    <a href="#top" class="nav-logo">root@suchir<span class="cursor-blink">:~$</span></a>
+    <nav class="nav-links">
+      <a href="#about" data-label="01">about</a>
+      <a href="#skills" data-label="02">skills</a>
+      <a href="#projects" data-label="03">projects</a>
+      <a href="#experience" data-label="04">experience</a>
+      <a href="#certs" data-label="05">certs</a>
+      <a href="#contact" data-label="06">contact</a>
+    </nav>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<!-- ============ HERO ============ -->
+<section class="hero" id="top">
+  <div class="hero-grid" aria-hidden="true"></div>
+  <div class="hero-inner">
+    <div class="terminal-window" role="img" aria-label="Terminal window animation introducing Suchir Bobbili">
+      <div class="terminal-bar">
+        <span class="dot dot-red"></span><span class="dot dot-yellow"></span><span class="dot dot-green"></span>
+        <span class="terminal-title">guest@suchir — bash</span>
+      </div>
+      <div class="terminal-body" id="terminalBody"></div>
+    </div>
+
+    <div class="hero-meta">
+      <p class="eyebrow">Hyderabad, India // Available for internships</p>
+      <h1 class="hero-name">Suchir Bobbili</h1>
+      <p class="hero-tag">CS undergrad focused on <span class="hl">cybersecurity</span>, networking, and ethical hacking — building Python-based security tools and learning to break things the right way.</p>
+      <div class="hero-actions">
+        <a href="#projects" class="btn btn-primary">./view_projects.sh</a>
+        <a href="mailto:codeme1006@gmail.com" class="btn btn-ghost">get in touch</a>
+      </div>
+    </div>
+  </div>
+  <a class="scroll-cue" href="#about" aria-label="Scroll to about section">
+    <span>scroll</span>
+    <svg width="14" height="20" viewBox="0 0 14 20" fill="none"><path d="M7 1v17M1 12l6 6 6-6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+  </a>
+</section>
+
+<main>
+
+<!-- ============ ABOUT ============ -->
+<section class="section" id="about">
+  <p class="section-label">/01 — about</p>
+  <div class="about-grid">
+    <div class="about-text">
+      <h2>Building the lock, then testing the pick.</h2>
+      <p>I'm a Computer Science undergraduate at the Institute of Aeronautical Engineering, Hyderabad, with a strong interest in cybersecurity, networking, and ethical hacking. I like understanding systems from both sides — writing the tool, then trying to break in through it.</p>
+      <p>My hands-on work spans log analysis, phishing detection, malware sandboxing, reverse shells, brute-force simulation, and network scanning — all built in Python, mostly inside isolated lab environments, to understand attacker techniques well enough to defend against them.</p>
+      <p>Currently completing an Ethical Hacking Bootcamp and Cisco networking coursework, and looking for a cybersecurity internship where I can put these skills to work on real problems.</p>
+    </div>
+    <aside class="about-stats" aria-label="Quick facts">
+      <div class="stat">
+        <span class="stat-num">86%</span>
+        <span class="stat-label">Class XII, Science</span>
+      </div>
+      <div class="stat">
+        <span class="stat-num">500+</span>
+        <span class="stat-label">coding problems solved</span>
+      </div>
+      <div class="stat">
+        <span class="stat-num">10+</span>
+        <span class="stat-label">TryHackMe labs</span>
+      </div>
+      <div class="stat">
+        <span class="stat-num">2028</span>
+        <span class="stat-label">expected graduation</span>
+      </div>
+    </aside>
+  </div>
+</section>
+
+<!-- ============ SKILLS ============ -->
+<section class="section section-alt" id="skills">
+  <p class="section-label">/02 — skills</p>
+  <h2>$ cat skills.json</h2>
+  <div class="skills-grid">
+
+    <div class="skill-card">
+      <h3><span class="skill-icon">◆</span>Security &amp; Networking</h3>
+      <ul class="chip-list">
+        <li>Network Security</li><li>Web Application Security</li><li>Malware Analysis</li>
+        <li>VAPT</li><li>Incident Response</li><li>OWASP Top 10</li><li>TCP/IP</li>
+        <li>Network Protocols</li><li>Computer Networking</li>
+      </ul>
+    </div>
+
+    <div class="skill-card">
+      <h3><span class="skill-icon">◆</span>Languages</h3>
+      <ul class="chip-list">
+        <li>Python</li><li>Java</li><li>JavaScript</li><li>SQL</li><li>Bash</li>
+      </ul>
+    </div>
+
+    <div class="skill-card">
+      <h3><span class="skill-icon">◆</span>Security Tools</h3>
+      <ul class="chip-list">
+        <li>Kali Linux</li><li>Nmap</li><li>Wireshark</li><li>Burp Suite</li><li>Metasploit</li>
+      </ul>
+    </div>
+
+    <div class="skill-card">
+      <h3><span class="skill-icon">◆</span>Dev &amp; Tools</h3>
+      <ul class="chip-list">
+        <li>Flask</li><li>Git</li><li>GitHub</li>
+      </ul>
+    </div>
+
+  </div>
+</section>
+
+<!-- ============ PROJECTS ============ -->
+<section class="section" id="projects">
+  <p class="section-label">/03 — projects</p>
+  <h2>$ nmap -sV --projects suchir.dev</h2>
+  <p class="section-intro">Six Python security tools built to explore both sides of the fence — detection, analysis, and the exploitation techniques they defend against. Everything below was built and run in isolated, local, or virtual-machine environments.</p>
+
+  <div class="scan-table">
+    <div class="scan-row scan-head" aria-hidden="true">
+      <span>PORT</span><span>STATE</span><span>SERVICE</span><span>NOTES</span>
+    </div>
+
+    <article class="scan-row scan-item">
+      <span class="scan-port">514/tcp</span>
+      <span class="scan-state">OPEN</span>
+      <span class="scan-service">
+        <strong>SOC Log Analyzer</strong>
+        <span class="scan-stack">Python</span>
+      </span>
+      <span class="scan-notes">
+        Parses Linux authentication and web server logs to flag SSH brute-force attempts, failed logins, suspicious IPs, and web scanning behavior, with rule-based detection and automated reporting.
+        <br><a href="https://github.com/SuchirBob/SOC-Log-Analyzer-Python" target="_blank" rel="noopener" class="proj-link">github.com/SuchirBob/SOC-Log-Analyzer-Python →</a>
+      </span>
+    </article>
+
+    <article class="scan-row scan-item">
+      <span class="scan-port">25/tcp</span>
+      <span class="scan-state">OPEN</span>
+      <span class="scan-service">
+        <strong>Email Phishing Detector</strong>
+        <span class="scan-stack">Python · Flask</span>
+      </span>
+      <span class="scan-notes">
+        Rule-based phishing detection system that analyzes .eml files for header anomalies, SPF/DKIM/DMARC results, suspicious URLs and attachments, with a weighted risk-scoring engine and web dashboard.
+        <br><a href="https://github.com/SuchirBob/Phishing-email-detector-with-score" target="_blank" rel="noopener" class="proj-link">github.com/SuchirBob/Phishing-email-detector-with-score →</a>
+      </span>
+    </article>
+
+    <article class="scan-row scan-item">
+      <span class="scan-port">31337/tcp</span>
+      <span class="scan-state">OPEN</span>
+      <span class="scan-service">
+        <strong>Basic Malware Sandbox</strong>
+        <span class="scan-stack">Python · Isolated VM</span>
+      </span>
+      <span class="scan-notes">
+        Terminal-based malware behavior monitoring tool that executes a sample inside an isolated VM, hashes it with SHA-256, tracks new processes, network connections, and filesystem changes, and generates an analysis report.
+        <br><a href="https://github.com/SuchirBob/Malware-SandBox-Basic" target="_blank" rel="noopener" class="proj-link">github.com/SuchirBob/Malware-SandBox-Basic →</a>
+      </span>
+    </article>
+
+    <article class="scan-row scan-item">
+      <span class="scan-port">4444/tcp</span>
+      <span class="scan-state">OPEN</span>
+      <span class="scan-service">
+        <strong>Reverse Shell Simulation</strong>
+        <span class="scan-stack">Python · Sockets · Isolated Lab</span>
+      </span>
+      <span class="scan-notes">
+        Controlled reverse shell built with Python sockets to explore remote command execution, attacker communication techniques, process management, and persistence, entirely inside an isolated lab.
+        <br><a href="https://github.com/SuchirBob/Backdoor-reverseShell-Python" target="_blank" rel="noopener" class="proj-link">github.com/SuchirBob/Backdoor-reverseShell-Python →</a>
+      </span>
+    </article>
+
+    <article class="scan-row scan-item">
+      <span class="scan-port">80/tcp</span>
+      <span class="scan-state">OPEN</span>
+      <span class="scan-service">
+        <strong>Password Brute-Force Simulation</strong>
+        <span class="scan-stack">Python · Requests · Threading</span>
+      </span>
+      <span class="scan-notes">
+        Multi-threaded HTTP login brute-force simulator that automates dictionary-based login attempts against a local target, using custom wordlists to simulate credential-stuffing attacks.
+        <br><a href="https://github.com/SuchirBob/Password-Bruteforce-Simulator" target="_blank" rel="noopener" class="proj-link">github.com/SuchirBob/Password-Bruteforce-Simulator →</a>
+      </span>
+    </article>
+
+    <article class="scan-row scan-item">
+      <span class="scan-port">21/tcp</span>
+      <span class="scan-state">OPEN</span>
+      <span class="scan-service">
+        <strong>Network Vulnerability Scanner</strong>
+        <span class="scan-stack">Python · Sockets</span>
+      </span>
+      <span class="scan-notes">
+        Scanner capable of probing 10,000+ TCP ports with banner grabbing for FTP, SSH, HTTP, and Telnet, flagging insecure configurations like anonymous FTP and unencrypted Telnet.
+        <br><a href="https://github.com/SuchirBob/Python-Network-Vulnerability-Scanner-10000_Ports" target="_blank" rel="noopener" class="proj-link">github.com/SuchirBob/Python-Network-Vulnerability-Scanner-10000_Ports →</a>
+      </span>
+    </article>
+  </div>
+</section>
+
+<!-- ============ EXPERIENCE ============ -->
+<section class="section section-alt" id="experience">
+  <p class="section-label">/04 — experience</p>
+  <h2>$ history | grep leadership</h2>
+
+  <div class="timeline">
+    <div class="timeline-item">
+      <div class="timeline-marker"></div>
+      <div class="timeline-content">
+        <div class="timeline-head">
+          <h3>Member, IARE Student Council</h3>
+          <span class="timeline-date">Ongoing</span>
+        </div>
+        <p class="timeline-org">Institute Of Aeronautical Engineering</p>
+        <ul>
+          <li>Coordinated 6 college-scale events and led volunteer teams from planning through execution.</li>
+          <li>Collaborated with faculty and students to ensure successful event execution, building leadership, communication, and teamwork skills.</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="timeline-item">
+      <div class="timeline-marker"></div>
+      <div class="timeline-content">
+        <div class="timeline-head">
+          <h3>Ethical Hacking Bootcamp</h3>
+          <span class="timeline-date">May 2026</span>
+        </div>
+        <p class="timeline-org">Udemy, Online</p>
+        <ul>
+          <li>Completed hands-on training in ethical hacking, penetration testing, and reconnaissance.</li>
+          <li>Covered web security, network attacks, privilege escalation, and Python automation for cybersecurity.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CERTIFICATIONS + EDUCATION ============ -->
+<section class="section" id="certs">
+  <p class="section-label">/05 — certifications &amp; education</p>
+  <div class="certs-grid">
+    <div>
+      <h2>$ ls certifications/</h2>
+      <ul class="cert-list">
+        <li>
+          <span class="cert-name">Ethical Hacking Bootcamp</span>
+          <span class="cert-org">Udemy, Online</span>
+          <span class="cert-date">May 2026</span>
+        </li>
+        <li>
+          <span class="cert-name">Introduction to Networking</span>
+          <span class="cert-org">Cisco Networking Academy</span>
+          <span class="cert-date">Jan – Feb 2026</span>
+        </li>
+        <li>
+          <span class="cert-name">Introduction to Cybersecurity</span>
+          <span class="cert-org">Cisco Networking Academy</span>
+          <span class="cert-date">Jan 2026</span>
+        </li>
+        <li>
+          <span class="cert-name">Introduction to Computer Science</span>
+          <span class="cert-org">CS50x, Harvard University</span>
+          <span class="cert-date">Mar – Apr 2024</span>
+        </li>
+      </ul>
+    </div>
+
+    <div>
+      <h2>$ cat education.log</h2>
+      <ul class="cert-list">
+        <li>
+          <span class="cert-name">B.Tech, Computer Science &amp; Engineering</span>
+          <span class="cert-org">Institute of Aeronautical Engineering, Hyderabad</span>
+          <span class="cert-date">2024 – 2028</span>
+        </li>
+        <li>
+          <span class="cert-name">Senior Secondary (XII), Science</span>
+          <span class="cert-org">Aspire Junior College · 86%</span>
+          <span class="cert-date">2024</span>
+        </li>
+        <li>
+          <span class="cert-name">Secondary (X), CBSE</span>
+          <span class="cert-org">Global Edge School, KPHB · 78%</span>
+          <span class="cert-date">2022</span>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="profiles-band">
+    <p class="profiles-label">$ whoami --accomplishments</p>
+    <div class="profiles-row">
+      <span class="profile-chip">TryHackMe <span>10+ labs completed</span></span>
+      <span class="profile-chip">LeetCode <span>500+ problems solved*</span></span>
+      <span class="profile-chip">GeeksforGeeks <span>500+ problems solved*</span></span>
+      <span class="profile-chip">CodeChef <span>500+ problems solved*</span></span>
+      <span class="profile-chip">HackerRank <span>500+ problems solved*</span></span>
+    </div>
+    <p class="profiles-note">*500+ problems solved combined across LeetCode, GeeksforGeeks, CodeChef &amp; HackerRank.</p>
+  </div>
+</section>
+
+<!-- ============ CONTACT ============ -->
+<section class="section contact" id="contact">
+  <p class="section-label">/06 — contact</p>
+  <h2>$ ./connect.sh --with=suchir</h2>
+  <p class="section-intro">Open to cybersecurity internships and roles where I can build secure systems and keep learning how to break — and fix — them. Reach out any time.</p>
+
+  <div class="contact-grid">
+    <a class="contact-card" href="mailto:codeme1006@gmail.com">
+      <span class="contact-kind">email</span>
+      <span class="contact-value">codeme1006@gmail.com</span>
+    </a>
+    <a class="contact-card" href="tel:+918985898620">
+      <span class="contact-kind">phone</span>
+      <span class="contact-value">+91 89858 98620</span>
+    </a>
+    <a class="contact-card" href="https://github.com/SuchirBob" target="_blank" rel="noopener">
+      <span class="contact-kind">github</span>
+      <span class="contact-value">github.com/SuchirBob</span>
+    </a>
+    <span class="contact-card">
+      <span class="contact-kind">location</span>
+      <span class="contact-value">Hyderabad, India</span>
+    </span>
+  </div>
+</section>
+
+</main>
+
+<footer class="footer">
+  <p>&copy; <span id="year"></span> Suchir Bobbili. Built with HTML, CSS &amp; a little too much curiosity.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
